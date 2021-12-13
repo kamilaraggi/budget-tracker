@@ -52,7 +52,7 @@ function uploadBudget() {
 
    alert('All saved budgets have been submitted!');
    })
-    catch(err => {
+    .catch(err => {
        console.log(err);
    });
  }
